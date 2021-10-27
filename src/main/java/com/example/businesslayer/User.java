@@ -1,9 +1,10 @@
 package com.example.businesslayer;
+import javax.persistence.*;
 
-import javax.
 
 @Entity
 @Table(name = "user")
+
 public class User {
 
     @Id
